@@ -1,7 +1,0 @@
-{
-  "$type": "ChairWars.WeaponSlot, ChairWars",
-  "WeightLimit": 60.0,
-  "SizeLimit": 20,
-  "MountingHole": "-10, -15",
-  "FireType": 2
-}

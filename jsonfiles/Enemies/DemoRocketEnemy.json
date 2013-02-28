@@ -1,9 +1,0 @@
-{
-  "$type": "ChairWars.Enemy, ChairWars",
-  "enemyName": "Test Enemy",
-  "chairFile": "./jsonfiles/Chairs/DemoRocketEnemyChair.json",
-  "riderFile": "Characters/Boss/ZoE_resize",
-  "aiType": 1,
-  "fireTypes": [1, 2],
-  "healthBarFile": "HUDIcons/HealthBar/enemyhealth_fill.png"
-}

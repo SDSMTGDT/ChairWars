@@ -1,5 +1,0 @@
-<test>
-<chairBaseFile>./xmlfiles/chairs/chairbase/testbasewheel.xml</chairBaseFile>
-<chairBodyFile>./xmlfiles/chairs/chairbody/testbody.xml</chairBodyFile>
-<chairTurretFile>./xmlfiles/chairs/chairturret/testturret.xml</chairTurretFile>
-</test>
