@@ -1,0 +1,14 @@
+<test>
+<spriteFile>main.png</spriteFile>
+<mass>10</mass>
+<normalForce>200</normalForce>
+<normalForceLimit>400</normalForceLimit>
+<boostLimit>500</boostLimit>
+<boostForce>400</boostForce>
+<boostForceLimit>800</boostForceLimit>
+<supportMass>100</supportMass>
+<rotation>0.0</rotation>
+<hitPoints>100</hitPoints>
+<defense>1</defense>
+<friction>1.0</friction>
+</test>

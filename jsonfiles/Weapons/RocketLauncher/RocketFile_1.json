@@ -1,0 +1,22 @@
+{
+  "$type": "ChairWars.Rocket, ChairWars",
+  "SpriteFile": "Rockets/rocket_resize",
+  "ProjectileDamage": 75,
+  "ProjectileMass": 0,
+  "InvincibleFrames": 2,
+  "InitialVelocity" : 500,
+  "OffsetRotation" : 0.0,
+  "OnDeathAttackType" : 1,
+  "Lifespan": 100,
+  "Destoryed": false,
+  "OnDeathFiles" :
+  [
+    {
+	  "AttackFilename": "./jsonfiles/Weapons/RocketLauncher/RocketSplash_1.json", 
+	  "RotationOffset": 0
+	} 
+  ],
+  "ParticleTrailFile": "./jsonfiles/Particles/testrockettrail.json",
+  "ParticleFile": "./jsonfiles/Particles/testcircleexplosion.json",
+  "SoundCueOnDeath": "Hand Gun I"
+}

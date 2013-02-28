@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChairWars", "ChairWars.csproj", "{8157975B-4C9C-43B1-A072-C1FBBCE592D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{270C742F-228C-4E7B-948C-C5D9536B3F4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChairWarsContent", "..\ChairWarsContent\ChairWarsContent.contentproj", "{3573E019-F945-411E-B702-8B0C1D308153}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8157975B-4C9C-43B1-A072-C1FBBCE592D9}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{8157975B-4C9C-43B1-A072-C1FBBCE592D9}.Debug|x86.ActiveCfg = Debug|x86
+		{8157975B-4C9C-43B1-A072-C1FBBCE592D9}.Debug|x86.Build.0 = Debug|x86
+		{8157975B-4C9C-43B1-A072-C1FBBCE592D9}.Release|Any CPU.ActiveCfg = Release|x86
+		{8157975B-4C9C-43B1-A072-C1FBBCE592D9}.Release|x86.ActiveCfg = Release|x86
+		{8157975B-4C9C-43B1-A072-C1FBBCE592D9}.Release|x86.Build.0 = Release|x86
+		{3573E019-F945-411E-B702-8B0C1D308153}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{3573E019-F945-411E-B702-8B0C1D308153}.Debug|x86.ActiveCfg = Debug|x86
+		{3573E019-F945-411E-B702-8B0C1D308153}.Release|Any CPU.ActiveCfg = Release|x86
+		{3573E019-F945-411E-B702-8B0C1D308153}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

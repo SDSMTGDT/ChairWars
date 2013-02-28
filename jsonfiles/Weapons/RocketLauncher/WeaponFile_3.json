@@ -1,0 +1,46 @@
+{
+  "$type": "ChairWars.Weapon, ChairWars",
+  "Size": 10,
+  "Weight": 50.7,
+  "FireRate": 60,
+  "ClipSize": 4,
+  "ReloadRate": 100,
+  "AttackType": 2,
+  "ProjectileSpeed": 500,
+  "ProjectileWeight": 1000,
+  "SpriteFile": "Weapons/rocketlauncherresize",
+  "AttackFiles": 
+  [
+    {
+	  "AttackFilename": "./jsonfiles/Weapons/RocketLauncher/RocketFile_1.json", 
+	  "RotationOffset": 0
+	},
+    {
+	  "AttackFilename": "./jsonfiles/Weapons/RocketLauncher/RocketFile_1.json", 
+	  "RotationOffset": .25
+	} ,
+    {
+	  "AttackFilename": "./jsonfiles/Weapons/RocketLauncher/RocketFile_1.json", 
+	  "RotationOffset": .5
+	} ,
+    {
+	  "AttackFilename": "./jsonfiles/Weapons/RocketLauncher/RocketFile_1.json", 
+	  "RotationOffset": .75
+	} ,
+    {
+	  "AttackFilename": "./jsonfiles/Weapons/RocketLauncher/RocketFile_1.json", 
+	  "RotationOffset": -.25
+	} ,
+    {
+	  "AttackFilename": "./jsonfiles/Weapons/RocketLauncher/RocketFile_1.json", 
+	  "RotationOffset": -.5
+	},
+    {
+	  "AttackFilename": "./jsonfiles/Weapons/RocketLauncher/RocketFile_1.json", 
+	  "RotationOffset": -.75
+	} 
+  ],
+  "hudSpriteFile": "HUDIcons/Ammo/ammo_rocket",
+  "soundCueFire": "Bigger Gun I",
+  "soundCueReload": "smb_coin"
+}

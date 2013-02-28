@@ -1,0 +1,14 @@
+{
+  "$type": "ChairWars.Bullet, ChairWars",
+  "SpriteFile": "bullet2Resize.png",
+  "ProjectileDamage": 30,
+  "InvincibleFrames": 0,
+  "InitialVelocity" : 1000,
+  "OffsetRotation" : 0.0,
+  "OnDeathAttackType" : 1,
+  "Lifespan": 100,
+  "Destoryed": false,
+  "OnDeathFiles" : [],
+  "ParticleFile": "./jsonfiles/testbulletricochet.json",
+  "SoundCueOnDeath": ""
+}

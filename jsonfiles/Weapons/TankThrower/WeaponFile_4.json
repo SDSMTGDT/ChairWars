@@ -1,0 +1,22 @@
+{
+  "$type": "ChairWars.Weapon, ChairWars",
+  "Size": 10,
+  "Weight": 50.7,
+  "FireRate": 0,
+  "ClipSize": 1,
+  "ReloadRate": 2,
+  "AttackType": 2,
+  "ProjectileSpeed": 000,
+  "ProjectileWeight": 0,
+  "SpriteFile": "Weapons/rocketlauncherresize",
+  "AttackFiles": 
+  [
+    {
+	  "AttackFilename": "./jsonfiles/Weapons/TankThrower/TankFile_1.json", 
+	  "RotationOffset": 0
+	}
+  ],
+  "hudSpriteFile": "HUDIcons/Ammo/ammo_rocket",
+  "soundCueFire": "Bigger Gun I",
+  "soundCueReload": "smb_coin"
+}

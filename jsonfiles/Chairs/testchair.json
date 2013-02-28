@@ -1,0 +1,89 @@
+{
+  "$type": "ChairWars.Chair, ChairWars",
+  "coordinates": "0, 0",
+  "forceAccumulator": "0, 0",
+  "chairBase": {
+    "$type": "ChairWars.ChairBase, ChairWars",
+    "spriteFile": "main.png",
+    "mass": 10,
+    "normalForce": 200,
+    "normalForceLimit": 400,
+    "boostLimit": 500,
+    "boostForce": 400,
+    "boostForceLimit": 800,
+    "supportMass": 100,
+    "rotation": 0.0,
+    "hitPoints": 100,
+    "defense": 1,
+    "friction": 1.0,
+    "sprite": {
+      "$type": "ChairWars.Sprite, ChairWars",
+      "imageFile": "main.png",
+      "coordinates": "0, 0",
+      "Rotation": 0.0,
+      "spriteOrigin": "30, 30"
+    }
+  },
+  "chairBody": {
+    "$type": "ChairWars.ChairBody, ChairWars",
+    "mass": 10,
+    "rotation": 0.0,
+    "hitPoints": 400,
+    "defense": 1,
+    "sprite": {
+      "$type": "ChairWars.Sprite, ChairWars",
+      "imageFile": "main.png",
+      "coordinates": "0, 0",
+      "Rotation": 0.0,
+      "spriteOrigin": "30, 30"
+    },
+    "collisionBox": {
+      "$type": "ChairWars.Polygon, ChairWars",
+      "vertexList": {
+        "$type": "System.Collections.Generic.List`1[[Microsoft.Xna.Framework.Vector2, Microsoft.Xna.Framework]], mscorlib",
+        "$values": [
+          "30, 30",
+          "30, -30",
+          "-30, 30",
+          "-30, -30"
+        ]
+      }
+    }
+  },
+  "chairTurret": {
+    "$type": "ChairWars.ChairTurret, ChairWars",
+    "mass": 10,
+    "force": 1,
+    "weightLimit": 400,
+    "hitPoints": 400,
+    "defense": 1
+  },
+  "maxHP": 900,
+  "currHP": 900,
+  "defense": 3,
+  "alive": true,
+  "collisionBox": {
+    "$type": "ChairWars.Polygon, ChairWars",
+    "vertexList": {
+      "$type": "System.Collections.Generic.List`1[[Microsoft.Xna.Framework.Vector2, Microsoft.Xna.Framework]], mscorlib",
+      "$values": [
+        "30, 30",
+        "30, -30",
+        "-30, 30",
+        "-30, -30"
+      ]
+    }
+  },
+  "deltaRotation": 0.1,
+  "targetAngle": 0.0,
+  "currentBodyRotation": 0.0,
+  "locomotiveForce": 6.66666651,
+  "locomotiveBoostForce": 13.333333,
+  "totalMass": 30,
+  "boostRemaining": 500,
+  "friction": 1.0,
+  "mass": 30,
+  "maxForceMagnitude": 400,
+  "maxBoostForceMagnitude": 800,
+  "previousTime": 0
+}

@@ -1,0 +1,16 @@
+{
+	"$type": "ChairWars.ChairBase, ChairWars",
+	"spriteFile": "ChairParts/Base/ChairBase",
+	"mass": 10,
+	"normalForce": 200,
+	"normalForceLimit": 400,
+	"boostLimit": 500,
+	"boostForce": 400,
+	"boostForceLimit": 800,
+	"supportMass": 100,
+	"rotation": 0.0,
+	"hitPoints": 100,
+	"defense": 1,
+	"friction": 1.0,
+	
+}
