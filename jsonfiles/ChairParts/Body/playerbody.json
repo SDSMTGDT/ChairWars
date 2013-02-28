@@ -1,0 +1,17 @@
+{
+	"$type": "ChairWars.ChairBody, ChairWars",
+	"spriteFile": "ChairParts/Body/armchairresize",
+	"mass": 10,
+	"rotation": 0.0,
+	"hitPoints": 800,
+	"defense": 3,
+	"deathExplosionFile": "./jsonfiles/Particles/testDeathExplosion.json",
+	"weaponSlotFiles": [
+	"./jsonfiles/ChairParts/Body/WeaponSlotFile_2.json",
+	"./jsonfiles/ChairParts/Body/WeaponSlotFile_3.json"
+	],
+	"defaultWeaponFiles": [
+	"./jsonfiles/Weapons/MachineGun/WeaponFile_2.json",
+	"./jsonfiles/Weapons/RocketLauncher/WeaponFile_3.json"
+	]
+}

@@ -1,0 +1,7 @@
+<test>
+<spriteFile>main.png</spriteFile>
+<mass>10</mass>
+<rotation>0.0</rotation>
+<hitPoints>400</hitPoints>
+<defense>1</defense>
+</test>

@@ -1,0 +1,8 @@
+{
+	"$type": "ChairWars.ChairTurret, ChairWars",
+	"mass": 10,
+	"force": 1,
+	"weightLimit": 400,
+	"hitPoints": 400,
+	"defense": 1
+}

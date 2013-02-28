@@ -1,0 +1,6 @@
+{
+  "$type": "ChairWars.Chair, ChairWars",
+  "chairBaseFile": "./jsonfiles/ChairParts/Base/testchairbase.json",
+  "chairBodyFile": "./jsonfiles/ChairParts/Body/playerbody.json",
+  "chairTurretFile": "./jsonfiles/ChairParts/Turret/testchairturret.json"
+}

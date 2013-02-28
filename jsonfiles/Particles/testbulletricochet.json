@@ -1,0 +1,17 @@
+{
+  "$type": "ChairWars.ParticleSource, ChairWars",
+  "spriteFile": ["Particles/whitepixel"],
+  "spriteColors":["255, 0, 0, 255","255, 255, 0, 255"],
+  "positionOffset": "0, 0",
+  "positionVariance": "3, 3",
+  "speedAverage": 500,
+  "speedVariance": 0.1,
+  "angleOffset": 3.14,
+  "angleVariance": 0.1,  
+  "frictionAverage": 4.0,
+  "frictionVariance": 0.5,
+  "lifetimeAverage": 200,
+  "lifetimeVariance": 0.5,
+  "numberOfParticles": 5,
+  "numberOfExplosions": 1
+}

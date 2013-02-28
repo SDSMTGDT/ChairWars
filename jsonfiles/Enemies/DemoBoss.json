@@ -1,0 +1,18 @@
+{
+  "$type": "ChairWars.Boss, ChairWars",
+  "enemyName": "Test Boss",
+  "chairFile": "./jsonfiles/Chairs/DemoBossChair.json",
+  "riderFile": "Characters/Boss/ZoE_resize",
+  "aiType": 3,
+  "fireTypes": [1, 2],
+  "immobile": true,
+  "healthTriggers": [0.5, 0.25],
+  "healthTriggered": [false, false],
+  "singleAttackTriggers": [false, true],
+  "continuousSpecialPowers": [2, 0],
+  "damfTriggers": [true, false],
+  "damfFiles": [
+  "./jsonfiles/Enemies/DemoMachineGunEnemy.json"
+  ],
+  "healthBarFile": "HUDIcons/HealthBar/enemyhealth_fill.png"
+}

@@ -1,0 +1,7 @@
+<test>
+<mass>10</mass>
+<force>1</force>
+<weightLimit>400</weightLimit>
+<hitPoints>400</hitPoints>
+<defense>1</defense>
+</test>
